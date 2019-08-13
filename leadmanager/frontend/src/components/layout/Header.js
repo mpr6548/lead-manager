@@ -11,3 +11,7 @@ export class Header extends Component {
 }
 
 export default Header
+
+
+// pipenv shell, pipenv run, exit -- pipenv virutal environment
+// python manage.py runserver -- run django server? 
