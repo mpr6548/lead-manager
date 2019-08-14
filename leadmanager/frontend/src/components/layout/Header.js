@@ -3,9 +3,17 @@ import React, { Component } from 'react'
 export class Header extends Component {
     render() {
         return (
-            <div>
-                {/* Stopped on 2nd video at 23:00 https://www.youtube.com/watch?v=GieYIzvdt2U */}
+          <nav className="navbar navbar-expand-sm navbar-light bg-light">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon" />
+            </button>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a className="navbar-brand" href="#">Lead Manager</a>
+              <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                
+              </ul>
             </div>
+          </nav>
         )
     }
 }
@@ -15,3 +23,4 @@ export default Header
 
 // pipenv shell, pipenv run, exit -- pipenv virutal environment
 // python manage.py runserver -- run django server? 
+// run react ==> npm run dev -- localhost:8000
