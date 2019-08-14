@@ -1,0 +1,9 @@
+Start up server:
+    ☐ virtual environment
+        ☐ pipenv shell -- pipenv run
+    ☐ Django server
+        ☐ python manage.py runserver
+
+Left Off:
+    ☐ stopped at 17:00 on video 4 
+    ☐ https://www.youtube.com/watch?v=Fia-GGgHpK0

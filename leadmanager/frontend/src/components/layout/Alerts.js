@@ -28,6 +28,3 @@ const mapStateToProps = state => ({
 
 
 export default connect(mapStateToProps)(withAlert()(Alerts));
-
-
-// stopped at 17:00 on video 4 https://www.youtube.com/watch?v=Fia-GGgHpK0
